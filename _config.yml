@@ -1,5 +1,5 @@
-name: Holly Warne Sports Massage
+name: AEAT Pension Campaign
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-root_url: https://njall.github.io/hollymassage
+root_url: https://njall.github.io/aeatpensioncampaign
 #root_url: http://localhost:4000

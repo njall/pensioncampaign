@@ -13,6 +13,19 @@ html {
 body {
   margin: 0; }
 
+.contact-means{
+  padding: 20px;
+}    
+.contact-logo{
+  width: 100px;
+}
+.icons{
+  padding: 20px;
+}
+.thumbnail{
+  text-align: center;
+}
+
 article,
 aside,
 details,
@@ -250,6 +263,9 @@ th {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+
+
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
