@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{"styles/site.css" | absolute_url}}">
+  </head>
+  <body>
+  
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Holly Warne <small>Sports Massage</small></h1>
+</div>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="{{"/" | absolute_url}}">Home</a></li>
+        <li><a href="{{"/services" | absolute_url}}">Services</a></li>
+        <li><a href="{{"/prices" | absolute_url}}">Prices</a></li>
+        <li><a href="{{"/testimonials" | absolute_url}}">Testimonials</a></li>
+        <li><a href="{{"/about" | absolute_url}}">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<h2>{{page.title}}</h2>
+
+  <div class="row">
+  <div class="col-lg-10">
+    {{ content }}
+  </div>
+  <div class="col-lg-2">
+
+    <div class="contact-means">
+      <a href="mailto:hollyWarne@gmail.com">
+        <img class="contact-logo" src="{{ "/assets/email.png" | absolute_url }}">
+      </a>
+    </div>
+    <div class="contact-means">
+      <a href="https://faceook.com/hollysMassagePage">
+        <img class="contact-logo"  src="{{ "/assets/facebook.png" | absolute_url }}">
+      </a>
+    </div>
+    <div class="contact-means">
+      <a href="https://twitter.com/twitter">
+        <img class="contact-logo" src="{{ "/assets/twitter.png" | absolute_url }}">
+      </a>
+    </div>
+  </div>
+  </body>
+
+
+</div>
+  
+</html>
